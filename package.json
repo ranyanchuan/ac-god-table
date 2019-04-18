@@ -1,0 +1,22 @@
+{
+  "name": "ac-god-table",
+  "version": "0.0.1",
+  "description": "超级表格",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ranyanchuan/ac-god-table.git"
+  },
+  "keywords": [
+    "table"
+  ],
+  "author": "ranyanchuan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ranyanchuan/ac-god-table/issues"
+  },
+  "homepage": "https://github.com/ranyanchuan/ac-god-table#readme"
+}
