@@ -2,9 +2,10 @@
   "name": "ac-god-table",
   "version": "0.0.1",
   "description": "超级表格",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir dist"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,21 @@
   "bugs": {
     "url": "https://github.com/ranyanchuan/ac-god-table/issues"
   },
-  "homepage": "https://github.com/ranyanchuan/ac-god-table#readme"
+  "homepage": "https://github.com/ranyanchuan/ac-god-table#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "6.26.0",
+    "babel-loader": "7.1.2",
+    "babel-plugin-import-less-css": "0.0.1",
+    "babel-plugin-transform-runtime": "6.23.0",
+    "babel-polyfill": "6.26.0",
+    "babel-preset-env": "1.6.1",
+    "babel-preset-react": "6.24.1",
+    "babel-preset-stage-2": "6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-less": "^4.0.1",
+    "less-plugin-autoprefix": "^2.0.0",
+    "minimist": "^1.2.0",
+    "rimraf": "^2.6.3"
+  }
 }
