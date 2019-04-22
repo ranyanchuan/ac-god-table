@@ -1,8 +1,8 @@
 {
   "name": "ac-god-table",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "超级表格",
-  "main": "dist/index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src --out-dir dist"
@@ -13,6 +13,11 @@
   },
   "keywords": [
     "table"
+  ],
+  "files": [
+    "package.json",
+    "dist",
+    "README.md"
   ],
   "author": "ranyanchuan",
   "license": "ISC",
@@ -34,6 +39,12 @@
     "gulp-less": "^4.0.1",
     "less-plugin-autoprefix": "^2.0.0",
     "minimist": "^1.2.0",
-    "rimraf": "^2.6.3"
+    "rimraf": "^2.6.3",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.0"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "handsontable": "^7.0.2"
   }
 }
